@@ -29,7 +29,7 @@ body.option header h1 {
 	margin: 0;
 	float: left;
 	left: 80px;
-	font-size: 40px;
+	font-size: 30px;
 	line-height: 40px;
 	top: 0;
 	position: absolute;
@@ -89,7 +89,7 @@ body.compare {
 	margin: 0;
 	float: left;
 	left: 80px;
-	font-size: 40px;
+	font-size: 30px;
 	line-height: 40px;
 	top: 0;
 	position: absolute;
@@ -115,6 +115,14 @@ body.compare {
 	color: blue;
 	top: 42px;
 	left: 320px;
+}
+
+#cpw header .help {
+	display: block;
+	position: absolute;
+	color: blue;
+	top: 42px;
+	left: 400px;
 }
 
 #cpl {
