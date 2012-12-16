@@ -1,0 +1,264 @@
+body {
+  font-family: 'Open Sans', Sans;
+}
+
+/**** option ****/
+body.option {
+	background-color: #eee;
+}
+
+#ow td {
+	position: relative;
+}
+
+body.option header {
+	position: relative;
+	clear: both;
+	height: 64px;
+	margin-bottom: 10px;
+}
+
+body.option header img {
+	width: 64px;
+	height: 64px;
+	float: left;
+	border-radius: 5px;
+}
+
+body.option header h1 {
+	margin: 0;
+	float: left;
+	left: 80px;
+	font-size: 40px;
+	line-height: 40px;
+	top: 0;
+	position: absolute;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	-webkit-text-overflow: ellipsis;
+}
+
+body.option header h2 {
+	margin: 0;
+	line-height: 20px;
+	vertical-align: bottom;
+	top: 42px;
+	left: 80px;
+	font-size: 18px;
+	position: absolute;
+}
+
+/**** compare ****/
+@font-face {
+	font-family: 'mua-compare';
+	src:url('fonts/compare.eot');
+	src:url('fonts/compare.eot?#iefix') format('embedded-opentype'),
+		url('fonts/compare.svg#icomoon') format('svg'),
+		url('fonts/compare.woff') format('woff'),
+		url('fonts/compare.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body.compare {
+	background-color: #eee;
+}
+
+#cpw {
+	overflow: scroll;
+	padding: 5px 20px;
+	margin: 0;
+}
+
+#cpw header {
+	position: relative;
+	clear: both;
+	height: 64px;
+	margin-bottom: 10px;
+}
+
+#cpw header img {
+	width: 64px;
+	height: 64px;
+	float: left;
+	border-radius: 5px;
+}
+
+#cpw header h1 {
+	margin: 0;
+	float: left;
+	left: 80px;
+	font-size: 40px;
+	line-height: 40px;
+	top: 0;
+	position: absolute;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	-webkit-text-overflow: ellipsis;
+}
+
+#cpw header h2 {
+	margin: 0;
+	line-height: 20px;
+	vertical-align: bottom;
+	top: 42px;
+	left: 80px;
+	font-size: 18px;
+	position: absolute;
+}
+
+#cpw header .set {
+	display: block;
+	position: absolute;
+	color: blue;
+	top: 42px;
+	left: 320px;
+}
+
+#cpl {
+	position: relative;
+	margin: 0 auto;
+}
+
+#cpw ul, #cpw ul li{
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	clear: both;
+}
+
+#cpw ul li {
+	display: -webkit-box;
+	display: box;
+	-webkit-box-orient: horizontal;
+	box-orient: horizontal;
+	margin: 5px 0;
+}
+
+#cpw ul li section {
+	-webkit-box-flex: 1;
+	box-flex: 1;
+	border-radius: 3px;
+	border: 1px solid #444;
+	box-shadow: 2px 2px #333;
+	margin: 0 5px;
+	padding: 4px;
+	position: relative;
+	overflow: hidden;
+	background-color: #bbb;
+}
+
+#cpw ul li section .hd {
+	border-radius: 3px 3px 0 0;
+	height: 20px;
+	font-size: 16px;
+	line-height: 20px;
+	margin: -4px -4px 2px -4px;
+	border-bottom: 1px solid #444;
+	background-color: #666;
+}
+
+#cpw ul li section .hd b {
+	color: #ccc;
+	padding: 0 6px 0 2px;
+	display: block;
+	width: 200px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	-webkit-text-overflow: ellipsis;
+	cursor: default;
+}
+
+#cpw ul li section .hd .ua {
+	float: right;
+	padding-right: 5px;
+	color: #ccc;
+	cursor: pointer;
+	font-weight: 800;
+}
+
+#cpw ul li section .hd .ua:before, #cpw ul li section .hd b:before {
+	font-family: 'mua-compare';
+	content: 'c';
+	color: black;
+	font-size: 14px;
+	padding: 6px 3px 0;
+	line-height: 20px;
+}
+
+#cpw ul li section .hd .ua:before {
+	content: 'b';
+}
+
+#cpw ul li section .hd .ua:hover {
+	color: white;
+}
+
+#cpw ul li section iframe {
+	width: 320px;
+	height: 480px;
+	border: 1px solid #aaa;
+	position: relative;
+	display: block;
+	overflow: scroll;
+	margin: 0 auto;
+}
+
+/**** popup ****/
+@font-face {
+	font-family: 'mua-popup';
+	src:url('fonts/popup.eot');
+	src:url('fonts/popup.eot?#iefix') format('embedded-opentype'),
+		url('fonts/popup.svg#icomoon') format('svg'),
+		url('fonts/popup.woff') format('woff'),
+		url('fonts/popup.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body.popup {
+	background-color: #333;
+}
+
+#ppw {
+	-webkit-user-select: none;
+}
+
+#ppw table {
+	width: 120px;
+	font-size: 10px;
+}
+
+#ppw table tr td {
+	color: white;
+	line-height: 1.5em;
+	margin: 4px;
+	padding: 0 2px;
+}
+
+#ppw table tr td.btn {
+	cursor: pointer;
+	border-radius: 5px;
+	border: 1px solid #999;
+	background-color: #555;
+	width: 90px;
+}
+
+#ppw table tr td.icon {
+	font-family: 'mua-popup';
+	width: 15px;
+	cursor: default;
+}
+
+#ppw table tr td.btn:hover {
+	background-color: #aaa;
+	color: #555599;
+}
+
+#ppw table tr td.btn:active {
+	background-color: #aaa;
+	color: #8888ff;
+}

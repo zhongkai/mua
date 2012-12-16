@@ -1,0 +1,47 @@
+{
+   "name": "__MSG_extName__",
+   "version": "1.0.0",
+   "manifest_version": 2,
+   "default_locale": "en",
+
+   "description": "Multiple User-Agent Comparation.",
+   "icons": {
+      "128": "multiua.png",
+      "64": "multiua-64.png",
+      "32": "multiua-32.png",
+      "16": "multiua-16.png"
+   },
+
+   "background": {
+      "scripts": [ "config.js", "background.js" ]
+   },
+   /*
+   不能用popup，拿不到currenttab
+   "browser_action": {
+      "default_icon": "multiua.png",
+      "default_popup": "popup.html",
+      "default_title": "Multiple UserAgent Compare"
+   },
+   */
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "multiua_cs.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   }],
+
+   "page_action": {
+      "default_icon": "multiua.png",
+      "default_title": "Multiple UserAgent Compare"
+   },
+
+   "omnibox": {
+      "keyword": "mua"
+   },
+   
+   "options_page": "options.html",
+   "permissions": [ "tabs", "webRequest", "webRequestBlocking", "webNavigation", "\u003Call_urls\u003E" ],
+   
+   
+   "web_accessible_resources": [ "jquery.js", "multiua_cs.js" ]
+}

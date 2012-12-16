@@ -1,0 +1,25 @@
+{
+	"extName": {
+		"message": "Multiple UserAgent Comparation",
+		"description": "extension name"
+	},
+
+	//popup
+	"popStartCompare": {
+		"message": "Compare Now"
+	},
+
+	"popSetting": {
+		"message": "Setting..."
+	},
+
+	//compare
+	"compareTitle": {
+		"message": "Multiple UserAgent Compare"
+	},
+
+	//omnibox
+	"omniSetting": {
+		"message": "Setting of Multiple UserAgent Compare"
+	}
+}
